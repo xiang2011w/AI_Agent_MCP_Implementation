@@ -8,7 +8,7 @@ async def main():
     print("Step 1: Creating MCPClient(s)...")
     fetch_script = os.environ.get(
         "MCP_FETCH_SCRIPT_PATH",
-        "/Users/xiang2011w/Desktop/personal/JOB/ALL_IN_AI/MCP_RAG/fetch-mcp/dist/index.js",
+        "Path/to/fetch-mcp/dist/index.js",
     )
     fetch_mcp = MCPClient(
         name="fetch",
